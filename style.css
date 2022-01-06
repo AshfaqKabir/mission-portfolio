@@ -154,6 +154,7 @@ body {
 
 #mission .flex .target .small-para {
   max-width: 315px;
+  min-height: 101px;
   color: #424242;
 }
 
@@ -237,10 +238,11 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgb(26, 26, 26);
+  background-color: #0b0d17;
   min-height: 150px;
   text-align: center;
   color: #fff;
+  margin-top: 100px;
 }
 
 footer h5 {
