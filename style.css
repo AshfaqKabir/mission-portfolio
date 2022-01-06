@@ -1,0 +1,259 @@
+/* font-family: 'Yeseva One', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s ease-out;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Global Classes */
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accent {
+  color: #ffad5a !important;
+}
+
+.btn {
+  padding: 12px;
+  height: 46px;
+  background-color: #ff5959;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.para {
+  font-size: 18px;
+  line-height: 28px;
+  color: #3e3e3e;
+}
+
+.small-para {
+  font-size: 16px;
+  color: #434343;
+}
+
+.section-title {
+  font-size: 48px;
+  line-height: 70px;
+  font-weight: 700;
+  color: #13103a;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+/* Container */
+
+.container {
+  width: 1128px;
+  min-height: 100vh;
+  margin: 0 auto;
+  /* border: 3px solid salmon; */
+}
+
+/* HERO SECTION */
+
+/* #hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
+#hero .left-content {
+  margin-top: 60px;
+}
+
+#hero .left-content #title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+#hero .left-content #title-container #line {
+  width: 4px;
+  height: 126px;
+  background-color: #ff5959;
+}
+
+#hero .left-content #title-container h1 {
+  font-family: "Yeseva One", cursive;
+  font-size: 60px;
+  line-height: 80px;
+  color: #333333;
+  margin-left: 14px;
+}
+
+#hero .left-content .para {
+  max-width: 470px;
+  margin-bottom: 20px;
+}
+
+#hero .left-content .btn {
+  min-width: 170px;
+  margin-bottom: 35px;
+}
+
+/* Right Side */
+#hero .right-content img {
+  width: 426px;
+  margin-right: 40px;
+}
+
+/* MISSION SECTION */
+#mission {
+  margin-top: 60px;
+  margin-bottom: 85px;
+}
+
+#mission .flex .target {
+  max-width: 360px;
+  max-height: 376px;
+  background-color: rgba(79, 157, 166, 0.1);
+  border-radius: 12px;
+  padding-left: 30px;
+  padding-top: 35px;
+  padding-right: 15px;
+  padding-bottom: 50px;
+}
+
+#mission .flex #target-1 {
+  background-color: rgba(79, 157, 166, 0.1);
+}
+
+#mission .flex #target-2 {
+  background-color: rgba(255, 89, 89, 0.1);
+}
+
+#mission .flex #target-3 {
+  background-color: rgba(255, 244, 214, 1);
+}
+
+#mission .flex .target img {
+  width: 141px;
+  height: 141px;
+}
+
+#mission .flex .target h4 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 12px;
+  margin-bottom: 16px;
+}
+
+#mission .flex .target .small-para {
+  max-width: 315px;
+  color: #424242;
+}
+
+/* Fourth SECTION MARGIN TOP Bottom */
+#fourth-section {
+  margin-top: 110px;
+  margin-bottom: 110px;
+}
+
+/* THIRD SECTION and FOURTH SECTION */
+.two-col-section .img-content img {
+  width: 400px;
+  height: 400px;
+}
+
+.two-col-section .content {
+  max-width: 650px;
+}
+
+.two-col-section .content .content-title {
+  margin-bottom: 16px;
+}
+
+.two-col-section .content .content-title h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333333;
+}
+
+.two-col-section .content .para {
+  margin-top: 16px;
+  margin-bottom: 18px;
+  line-height: 30px;
+}
+
+.two-col-section .content .btn {
+  width: 198px;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolio .flex {
+  flex-wrap: wrap;
+}
+
+#portfolio .portfolio-container {
+  max-width: 936px;
+  margin: 0 auto;
+}
+
+#portfolio .portfolio-container .project {
+  margin-bottom: 64px;
+}
+
+#portfolio .portfolio-container .project .project-img {
+  margin-bottom: 12px;
+}
+
+#portfolio .portfolio-container .project .project-img img {
+  width: 456px;
+  height: 570px;
+  border-radius: 6px;
+}
+
+#portfolio .portfolio-container .project .project-content .tags {
+  font-size: 14px;
+  font-weight: 400;
+  color: #424242;
+  margin-bottom: 8px;
+}
+
+#portfolio .portfolio-container .project .project-content .project-title {
+  max-width: 360px;
+  font-size: 30px;
+  line-height: 37px;
+  font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(26, 26, 26);
+  min-height: 150px;
+  text-align: center;
+  color: #fff;
+}
+
+footer h5 {
+  font-family: "Yeseva One", cursive;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+footer .accent {
+  color: #ff5959 !important;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 24px;
+}
